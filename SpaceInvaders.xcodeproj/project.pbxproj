@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840FD99026075BE20057169B /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FD98F26075BE20057169B /* Bullet.swift */; };
 		8410668225F39145000E7B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410668125F39145000E7B01 /* AppDelegate.swift */; };
 		8410668425F39145000E7B01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410668325F39145000E7B01 /* ViewController.swift */; };
 		8410668725F39145000E7B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8410668525F39145000E7B01 /* Main.storyboard */; };
 		8410668925F39147000E7B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8410668825F39147000E7B01 /* Assets.xcassets */; };
 		8410668C25F39147000E7B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8410668A25F39147000E7B01 /* LaunchScreen.storyboard */; };
+		844703B225F5FE5E007EFD9E /* InGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844703B025F5FE5E007EFD9E /* InGameViewController.swift */; };
+		844703B325F5FE5E007EFD9E /* InGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844703B125F5FE5E007EFD9E /* InGameViewController.xib */; };
+		84585D8425FDEE8700A8A151 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84585D8325FDEE8700A8A151 /* Player.swift */; };
+		84DDE4DF2609A69800B08B4A /* Asteroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DDE4DE2609A69800B08B4A /* Asteroid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840FD98F26075BE20057169B /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
 		8410667E25F39145000E7B01 /* SpaceInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8410668125F39145000E7B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8410668325F39145000E7B01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		8410668825F39147000E7B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8410668B25F39147000E7B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8410668D25F39147000E7B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844703B025F5FE5E007EFD9E /* InGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InGameViewController.swift; sourceTree = "<group>"; };
+		844703B125F5FE5E007EFD9E /* InGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InGameViewController.xib; sourceTree = "<group>"; };
+		84585D8325FDEE8700A8A151 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		84DDE4DE2609A69800B08B4A /* Asteroid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asteroid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				8410668825F39147000E7B01 /* Assets.xcassets */,
 				8410668A25F39147000E7B01 /* LaunchScreen.storyboard */,
 				8410668D25F39147000E7B01 /* Info.plist */,
+				844703B025F5FE5E007EFD9E /* InGameViewController.swift */,
+				844703B125F5FE5E007EFD9E /* InGameViewController.xib */,
+				84585D8325FDEE8700A8A151 /* Player.swift */,
+				840FD98F26075BE20057169B /* Bullet.swift */,
+				84DDE4DE2609A69800B08B4A /* Asteroid.swift */,
 			);
 			path = SpaceInvaders;
 			sourceTree = "<group>";
@@ -123,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8410668C25F39147000E7B01 /* LaunchScreen.storyboard in Resources */,
+				844703B325F5FE5E007EFD9E /* InGameViewController.xib in Resources */,
 				8410668925F39147000E7B01 /* Assets.xcassets in Resources */,
 				8410668725F39145000E7B01 /* Main.storyboard in Resources */,
 			);
@@ -135,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84585D8425FDEE8700A8A151 /* Player.swift in Sources */,
+				844703B225F5FE5E007EFD9E /* InGameViewController.swift in Sources */,
+				840FD99026075BE20057169B /* Bullet.swift in Sources */,
 				8410668425F39145000E7B01 /* ViewController.swift in Sources */,
+				84DDE4DF2609A69800B08B4A /* Asteroid.swift in Sources */,
 				8410668225F39145000E7B01 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +303,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TCB8HTJHR;
 				INFOPLIST_FILE = SpaceInvaders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tsu.SpaceInvaders;
+				PRODUCT_BUNDLE_IDENTIFIER = tsu.SpaceInvaders.Volkov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +321,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TCB8HTJHR;
 				INFOPLIST_FILE = SpaceInvaders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tsu.SpaceInvaders;
+				PRODUCT_BUNDLE_IDENTIFIER = tsu.SpaceInvaders.Volkov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

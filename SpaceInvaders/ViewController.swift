@@ -14,7 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
+    
+    @IBAction func PlayButtonPressed(_ sender: UIButton) {
+        let inGameViewController : InGameViewController = InGameViewController()
+        show(inGameViewController, sender: self)
+        
+    }
 }
 
